@@ -155,8 +155,13 @@ color: var(--contacts-color);
 .section-banner {
 background: var(--main-text-color);
 padding: 188px 0;
+/* background-image: url(../images/people-office\ 1.jpg); */
+background-position: 50% 50%;
+background-repeat: no-repeat;
 
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
 }
+
 .site-banner {
 width: 496px;
 font-size: 56px;
@@ -199,12 +204,36 @@ border-radius: 4px;
    .skill-section {
 padding: 120px 0;
    }
+.svg-list-skills {
+   display: flex;
+   margin: 0px;
+   padding: 0px;
+   gap: 24px;
+   justify-content: center;
+}
+.svg-item {
+  width: 264px;
+  height: 112px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+background-color: #F4F4FD;
+border-radius: 4px;
+margin-bottom: 8px;
+}
+
+.svg-img-skill {
+   width: 64px;
+   height: 64px;
+}
 
 .skill-list {
    display: flex;
    gap: 24px;
    text-align: left;
    padding: 0px;
+   justify-content: center;
 }
 /* .hidden-title{
 
@@ -219,6 +248,7 @@ margin-bottom: 8px;
 
 }
 .skill-descrip {
+   width: 264px;
 font-size: 16px;
 line-height: 1.5;
 color: var(--skill-descrip);
@@ -341,7 +371,7 @@ line-height: 1.5;
 /* ---------//Portfolio page //---------------- */
 
 
-.main-saction-portfolio {
+.main-section-portfolio {
    padding-top: 96px;
    padding-bottom: 120px;
 }
