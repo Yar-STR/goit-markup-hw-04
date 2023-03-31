@@ -209,7 +209,7 @@ padding: 120px 0;
    margin: 0px;
    padding: 0px;
    gap: 24px;
-   justify-content: center;
+   justify-content: space-between;
 }
 .svg-item {
   width: 264px;
@@ -318,23 +318,39 @@ color: var(--main-text-color);
 margin-bottom: 8px;
 }
  
-.team-img {
-   /* display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px 0px 32px;
-gap: 32px; */
+/* .team-img {
 
-background: #FFFFFF;
-/* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px; */
-}
+} */
 
 .team-position {
 font-size: 16px;
 line-height: 1.5;
 color: var(--team-position-color);
+margin-bottom: 8px;
+}
+
+.socnetworks-list {
+display: flex;
+gap: 24px;
+margin: 0px auto;
+padding: 0px;
+}
+
+.socnetworks-item {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+border: 1px transparent;
+border-radius: 50%;
+background-color: #4D5AE5;
+}
+
+.svg-socnetwork {
+width: 16px;
+height: 16px;
+
 }
 
 /* Footer section  */
