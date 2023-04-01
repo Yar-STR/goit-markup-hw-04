@@ -350,6 +350,7 @@ background-color: #4D5AE5;
 .svg-socnetwork {
 width: 16px;
 height: 16px;
+fill: #F4F4FD;
 }
 
 /* ----Customer Section---  */
@@ -394,6 +395,7 @@ justify-content: center;
 .svg-customers {
    width: 104px;
    height: 56px;
+   
 }
 
 /* Footer section  */
@@ -426,6 +428,54 @@ font-size: 16px;
 line-height: 1.5;
    color: var(--logo-text-ft);
 }
+
+/* Socialmedia */
+.footer-flex-blocks {
+   display: flex;
+}
+.socnetwork-media {
+width: 208px;
+height: 80px;
+margin: 0 auto 0 120px;
+
+}
+
+.soc-media-title {
+margin: 0px;
+padding: 0px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--text-banner-color);
+margin-bottom: 16px;
+}
+
+.soc-media-list {
+   margin: 0px;
+padding: 0px;
+   display: flex;
+   gap: 16px;
+   justify-content: space-between;
+   
+}
+.soc-media-item {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+border: 1px transparent;
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+.svg-soc-media {
+fill: #F4F4FD;
+width: 24px;
+height: 24px;
+}
+
 
 /* ---------//Portfolio page //---------------- */
 
@@ -475,6 +525,7 @@ border-radius: 4px;
   .button-portf:focus {
       background-color:#404BBF;
       color:  #FFFFFF;
+      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
    }
 
    /* .button-list-potrfolio {} */
