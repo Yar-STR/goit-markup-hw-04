@@ -350,7 +350,50 @@ background-color: #4D5AE5;
 .svg-socnetwork {
 width: 16px;
 height: 16px;
+}
 
+/* ----Customer Section---  */
+
+.customer-title {
+font-size: 36px;
+line-height: 1.11;
+text-transform: capitalize;
+color: var(--main-text-color);
+text-align: center;
+letter-spacing: 0.02em;
+margin-bottom: 72px;
+}
+
+.customer-section {
+margin: 0px auto;
+padding: 120px 0px;
+background-color: var(--background-color-white);
+}
+
+.customer-list {
+margin: 0px;
+padding: 0px;
+display: flex;
+gap: 24px;
+align-items: center;
+justify-content: space-between;
+}
+
+.customer-item {
+margin: 0px;
+padding: 0px;
+width: 168px;
+height: 88px;
+border: 1px solid #8E8F99;
+border-radius: 4px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.svg-customers {
+   width: 104px;
+   height: 56px;
 }
 
 /* Footer section  */
