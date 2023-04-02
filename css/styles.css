@@ -314,9 +314,17 @@ padding: 0px;
 
 .container-team {
    padding: 32px 16px;
-   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
+
 }
+
+/* .container-team:hover, 
+.container-team:focus {
+   flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+} */
+
 .team-name {
 font-style: normal;
 font-weight: 500;
@@ -328,9 +336,11 @@ color: var(--main-text-color);
 margin-bottom: 8px;
 }
  
-/* .team-img {
-
-} */
+.team-img {
+   background: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+}
 
 .team-position {
 font-size: 16px;
@@ -361,6 +371,12 @@ background-color: #4D5AE5;
 width: 16px;
 height: 16px;
 fill: #F4F4FD;
+}
+
+.socnetworks-item:hover,
+.socnetworks-item:focus {
+   color: currentColor;
+   cursor: pointer;
 }
 
 /* ----Customer Section---  */
@@ -415,9 +431,8 @@ justify-content: center;
 border: 1px solid #404BBF;
 border-radius: 4px;
 color: #404BBF;
-
+cursor: pointer;
 }
-
 
 /* Footer section  */
 
@@ -502,6 +517,7 @@ height: 24px;
 .soc-media-item:hover,
 .soc-media-item:focus {
 background-color: #31D0AA;;
+cursor: pointer;
 }
 
 
@@ -555,6 +571,7 @@ border-radius: 4px;
       color:  #FFFFFF;
       box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
    border: none;
+   cursor: pointer;
    }
 
    /* .button-list-potrfolio {} */
@@ -575,6 +592,7 @@ border-radius: 4px;
 .cards-anime:focus {
    background: #FFFFFF;
    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+   cursor: pointer;
 }
 /* .section-project-cards {
 } */
